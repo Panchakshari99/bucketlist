@@ -1,0 +1,74 @@
+/* Reset and base styles */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f9f9;
+  color: #333;
+}
+
+header {
+  text-align: center;
+  padding: 2rem;
+  background-color: #00b4d8;
+  color: white;
+}
+
+.profile-pic {
+  width: 100px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.intro {
+  font-style: italic;
+}
+
+main {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.category {
+  margin-bottom: 2rem;
+}
+
+.category h2 {
+  color: #0077b6;
+  border-bottom: 2px solid #caf0f8;
+  padding-bottom: 0.5rem;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: #ffffff;
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  transition: background-color 0.3s;
+}
+
+li:hover {
+  background-color: #e0f7fa;
+}
+
+/* Responsive layout */
+@media (max-width: 600px) {
+  body {
+    font-size: 16px;
+  }
+
+  .profile-pic {
+    width: 80px;
+  }
+
+  main {
+    padding: 0 1rem;
+  }
+}
